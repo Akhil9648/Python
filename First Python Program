@@ -1,0 +1,4 @@
+#float data
+x=4
+y=32787
+print(y,type(y))
