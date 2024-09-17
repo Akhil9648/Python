@@ -1,0 +1,6 @@
+print("Starting of For loop\n")
+for i in range(5):
+    print(f"i={i}")
+    print(f"i squared={i*i}")
+    print("-"*20)
+print("For Loop Ended")
