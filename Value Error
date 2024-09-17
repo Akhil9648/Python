@@ -1,0 +1,3 @@
+str=input("Enter a string:\n")
+if(str=="quit"):
+    raise ValueError("\nError!!")
