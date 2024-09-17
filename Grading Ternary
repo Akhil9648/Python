@@ -1,0 +1,2 @@
+n=int(input("Enter a number"))
+print("Grade A" if n>90 else "Grade B" if n>80 else "Grade C" if n>70 else "Grade D" if n>40 else "Fail!!")
