@@ -1,0 +1,2 @@
+n=(int(input("Enter the number:\n")))
+print("Positive" if n>0 else "Zero" if n==0 else "Negative" )
