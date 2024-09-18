@@ -1,0 +1,11 @@
+import random
+num=random.randint(1,100)
+count=0
+while(True):
+    n=int(input("Enter the code:"))
+    if(n==num):
+        print(f"Sucess you won the game in {count} attempts")
+        break
+    else:
+        print("Try again")
+    count+=1
