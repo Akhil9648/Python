@@ -1,0 +1,7 @@
+tax=int(input("Enter the income:"))
+if(tax<250000):
+    print("No Tax")
+elif(250001<tax<500000):
+    print(tax*5/100)
+else:
+    print(tax*10/100)
