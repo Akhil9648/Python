@@ -1,0 +1,7 @@
+u=int(input("Enter total units: "))
+if(u<100):
+    print(f"bill={5*u}")
+elif(100<u<200):
+    print(f"bill={7*(u-100)+5*100}")
+else:
+    print(f"bill={10*(u-100)+5*100}")
