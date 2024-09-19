@@ -1,0 +1,8 @@
+n=int(input("Enter the current balance: "))
+m=int(input("Enter Withdrawl Amount: "))
+if((m%5)==0 and n>m):
+    o=n-m-0.50
+    print(o)
+else:
+    print(n)
+    
