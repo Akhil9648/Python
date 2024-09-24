@@ -1,0 +1,25 @@
+code=input("Enter the code:")
+w=code.split(" ")
+coding=int(input("Enter 1 for coding 0 for decoding:"))
+nw=[]
+if coding==1:
+    for word in w:
+        if len(word)>=3:
+            r1="apj"
+            r2="pkh"
+            coden=r1+code[1:]+code[0]+r2
+            nw.append(coden)
+        else:
+            nw.append(code[::-1])
+            print(" ".join(nw))
+elif coding==0:
+    for word in w:
+        if len(word)>=3:
+            coden=word[3:-3]
+            coden=coden[-1]+coden[:-1]
+            nw.append(coden)
+        else:
+            nw.append(code[::-1])
+            print(" ".join(nw))
+print(nw)
+    
