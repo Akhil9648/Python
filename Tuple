@@ -1,0 +1,5 @@
+t=eval(input("Enter a tuple:"))
+sum=sum(t)
+n=len(t)
+average=sum/n
+print(f"Sum={sum},Average={average}")
