@@ -1,0 +1,9 @@
+#Write a function to take a string as a input and and return all vowels to upper case and all consonants to lower case
+str=input("Enter a string:")
+result=""
+for i in str:
+    if i in 'aeiouAEIOU':
+        result+=i.upper()
+    else:
+        result+=i.lower()
+print(result)
