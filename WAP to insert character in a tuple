@@ -1,0 +1,7 @@
+# WAP to take your name as a input and insert each character in a tuple
+name=input("Enter your name:")
+t=()
+for i in name:
+    if i.isalpha():
+        t=t+tuple(i)
+print(t)
