@@ -1,0 +1,20 @@
+# Banking System in Python
+balance=3000;
+while 1:
+    oper=input("Enter operation:\nD-Display Balance\nW-Withdrawl\nE-Deposit Balance\nQ-Quit\n")
+    if oper!='Q':
+        if oper=='D':
+            print(f"Balance={balance}")
+        elif oper=='W':
+            amount=int(input("Enter amount:"))
+            if balance>amount:
+                balance-=amount;
+                print(f"Available Balance is:{balance}")
+            else:
+                print("Transaction Unsucessful")
+        elif oper=='E':
+            amount=int(input("Enter amount:"))
+            balance+=amount;
+            print(f"Available Balance is:{balance}")
+    else:
+        print("Thank you")
