@@ -4,19 +4,20 @@ while 1:
     oper=input("Enter operation:\nD-Display Balance\nW-Withdrawl\nE-Deposit Balance\nQ-Quit\n")
     if oper!='Q':
         if oper=='D':
-            print(f"Balance={balance}")
+            print(f"Balance=₹{balance}")
         elif oper=='W':
             amount=int(input("Enter amount:"))
             if balance>amount:
                 balance-=amount;
-                print(f"Available Balance is:{balance}")
+                print(f"Available Balance is:₹{balance}")
             else:
-                print("Transaction Unsucessful")
+                print("Transaction Unsucessful(Insufficient Funds)")
         elif oper=='E':
             amount=int(input("Enter amount:"))
             balance+=amount;
-            print(f"Available Balance is:{balance}")
+            print(f"Available Balance is:₹{balance}")
         else:
             print("Wrong Operation")
-    else:
+    elif oper=='Q':
         print("Thank you")
+        break;
