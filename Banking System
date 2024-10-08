@@ -16,5 +16,7 @@ while 1:
             amount=int(input("Enter amount:"))
             balance+=amount;
             print(f"Available Balance is:{balance}")
+        else:
+            print("Wrong Operation")
     else:
         print("Thank you")
