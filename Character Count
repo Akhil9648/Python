@@ -1,0 +1,9 @@
+# Wap to count the frequency of characters in your name and the will be given bty the input function
+name=input("Enter your name:")
+d={}
+for i in name:
+    if(i in d):
+        d[i]+=1;
+    else:
+        d[i]=1
+print(d)
