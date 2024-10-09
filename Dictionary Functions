@@ -38,3 +38,20 @@ my_dict={'a':1, 'b':2, 'c':3}
 value=my_dict.pop('b')
 print(value) #Output: 2
 print(my_dict) #Output: {'a':1, 'c':3}
+#9. popitem()
+my_dict={'a':1, 'b':2, 'c':3}
+item=my_dict.popitem()
+print(item) #Output: ('c',3)
+print(my_dict) #Output: {'a':1, 'b':2}
+
+#10. setdefault()
+my_dict={'a':1, 'b':2, 'c':3}
+value=my_dict.setdefault('d',0)
+print(value) #Output: 0
+print(my_dict) #Output: {'a':1, 'b':2, 'c':3, 'd':0}
+
+#11. update()
+dict1={'a':1, 'b':2}
+dict2={'b':3, 'c':4}
+dict1.update(dict2)
+print(dict1) #Output: {'a':1, 'b':3, 'c':4}
