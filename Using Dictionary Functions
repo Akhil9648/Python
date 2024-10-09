@@ -1,0 +1,27 @@
+student_details={
+    'name':'Rahul',
+    'Age':21,
+    'Course':'Computer Science',
+    'marks':85
+}
+keys=student_details.keys()
+print(keys)
+values=student_details.values()
+print(values)
+items=student_details.items()
+print(items)
+gets=student_details.get('name',0)
+print(gets)
+pops=student_details.pop('name')
+print(pops)
+guardian_details={
+    'Fathers name':'Raman'
+}
+student_details.update(guardian_details)
+print(student_details)
+item=student_details.popitem()
+print(item)
+my_dict={'x','y','z'}
+default=18
+new=dict.fromkeys(my_dict,default)
+print(new)
