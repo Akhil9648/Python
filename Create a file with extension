@@ -1,0 +1,5 @@
+j=10
+for i in range(1,j+1):
+    name=input("Enter a name of file:")
+    ext=input("Enter the extension of file:")
+    f=open('C:\\File_handling_python\\'+name+ext,'w')
