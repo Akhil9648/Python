@@ -1,0 +1,6 @@
+f=open("C:\\File_handling_python\\abc.txt",'w')
+print("File name:",f.name)
+print("File Mode:",f.mode)
+print("Is file Readable:",f.readable())
+print("Is file Writeable:",f.writable())
+print("Is file closed:",f.closed)
