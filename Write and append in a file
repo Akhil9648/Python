@@ -1,0 +1,8 @@
+f=open("C:\\File_handling_python\\abc.txt",'w')
+x='Learning python is very easy!!'
+f.write(x)
+f.close()
+f=open("C:\\File_handling_python\\abc.txt",'a')
+y=['a','b','c','d','e','f']
+f.writelines(y)
+f.close()
