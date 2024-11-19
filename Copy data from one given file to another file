@@ -1,0 +1,7 @@
+#WAP to copy data from one given file to another file
+f1=open("C:\\File_handling_python\\abc.txt",'r')
+x=f1.read()
+f1.close()
+f2=open("C:\\File_handling_python\\def.txt",'w')
+f2.write(x)
+f2.close()
